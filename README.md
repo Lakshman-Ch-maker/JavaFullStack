@@ -35,9 +35,9 @@ run on server
 
 
 
-JSP : Java Servelet Pages
+JSP : Java Server Pages
 
-JSP is atechnology used for developing web applications
+JSP is a technology used for developing web applications
 It can be a thought of extension to servlet
 JSP provides more functionality than servlets
 

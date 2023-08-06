@@ -1,0 +1,44 @@
+// 6). package com.bov.assignment1;
+
+/* Rectangle Area and Perimeter: Build a program that prompts the user to enter the length and width of a rectangle. 
+Calculate and display the area and perimeter of the rectangle 
+using variables to store the input and calculated values. */
+
+import java.util.Scanner;
+
+class RectangleAreaAndPerimeter
+{
+	public static void main(String args[])
+	{
+		int length;
+		int width;
+		int perimeter;
+		int area;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the length of the rectangle : ");
+		length = sc.nextInt();
+		System.out.println("Enter width of the rectangle : ");
+		width = sc.nextInt();
+		
+		perimeter = 2 * (length + width);
+		
+		area = length * width;
+		
+		System.out.println("The area of the rectangle is "+area+" and the perimeter of the rectangle Is : "+perimeter);
+		
+	}
+}
+
+
+/* Output:
+
+
+Enter the length of the rectangle : 
+5
+Enter width of the rectangle : 
+3
+The area of the rectangle is 15 and the perimeter of the rectangle Is : 16 */
+
+
